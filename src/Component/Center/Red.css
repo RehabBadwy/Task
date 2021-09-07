@@ -1,0 +1,119 @@
+.cinatinerLine{
+    position: relative;
+   
+}
+.circle::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    right: 46px;
+    top: 225px;
+    text-align: center;
+    z-index: 999;
+}
+i{
+    position: absolute;
+    top: 232px;
+    right: 53px;
+    z-index: 999;
+    color: white;
+}
+.second{
+    position: absolute;
+    top: 232px;
+    right: 28.5%;
+    z-index: 999;
+}
+
+.line::after{
+    content: '';
+    width: 63%;
+    border: none;
+    border-radius: 2px;
+    height: 10px;
+    position: absolute;
+    right: 48px;
+    top: 230px;
+    text-align: center;
+    margin-top: 10px;
+    background-image: linear-gradient(to left, red 74% , #dcd6d6  50%);
+}
+.circle1::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+        right: 28%;
+    top: 226px;
+    text-align: center;
+    z-index: 999;
+}
+.circle2::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    right: 48%;
+    top: 226px;
+    text-align: center;
+    z-index: 999;
+}
+.third{
+    position: absolute;
+    top: 232px;
+    right: 48.3%;
+    z-index: 999;
+}
+.circle3::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #eee ;
+    position: absolute;
+    right: 66%;
+    top: 226px;
+    text-align: center;
+    z-index: 999;
+}
+.four{
+    position: absolute;
+    top: 232px;
+    right: 66.5%;
+    z-index: 999;
+}
+.centerlist{
+    margin-right: 31px;
+    width: 82%;
+    
+}
+.centercontainer{
+    margin: 5px;
+ 
+   
+}
+.centertable{
+    width: 80%;
+}
+.done{
+    margin-right: 50px;
+}
+.light{
+    font-weight: 100;
+    font-family: 'Cairo', sans-serif;
+    color: #7b7a7a;
+}
+.yellow{
+    font-size: 15px;
+    font-weight: 500;
+    color: red;
+    font-family: 'Cairo', sans-serif;
+
+}

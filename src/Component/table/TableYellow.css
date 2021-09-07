@@ -1,0 +1,35 @@
+.widgetLg{
+    flex: 9;
+    float: right;
+    font-family: 'Cairo', sans-serif;
+}
+.container{
+    background-color: #ececec;
+}
+table, td, th {  
+    margin: 50px;
+    border-bottom: 1px solid #ddd;
+    text-align: right;
+    width: 80px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 15px;
+  }
+  .details{
+    float: right;
+    margin-right: 53px;
+  }
+  .clientt{
+      color: rgb(255 255 0);
+      font-weight: bold;
+      font-size: 14px;
+      font-family: 'Cairo', sans-serif;
+
+  }
+ 
